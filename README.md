@@ -14,3 +14,8 @@ platform: win-64
 
 ## Usage:
 `python onix-png-download.py <<NAME-ESV-DATEI>>.xml`
+
+Falls es zu Fehlern bei der Verbindung kommt, muss der Proxy in der Konsole gesetzt werden:
+
+`set http_proxy=proxy.vhb.de:80`
+`set https_proxy=proxy.vhb.de:80`
