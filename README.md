@@ -19,3 +19,7 @@ Falls es zu Fehlern bei der Verbindung kommt, muss der Proxy in der Konsole gese
 
 `set http_proxy=proxy.vhb.de:80`
 `set https_proxy=proxy.vhb.de:80`
+
+Dauerhaft Umgebungsvariablen in Windows speichern:
+`setx http_proxy proxy.vhb.de:80`
+`setx https_proxy proxy.vhb.de:80`
