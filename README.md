@@ -8,11 +8,12 @@
 
 This file may be used to create an environment using:
 
-`$ conda create --name <env> --file onix-png-download.txt`
+`$ conda create --name env --file onix-png-download.txt`
 
 platform: win-64
 
 ## Usage:
+`conda activate env`
 `python onix-png-download.py <<NAME-ESV-DATEI>>.xml`
 
 Falls es zu Fehlern bei der Verbindung kommt, muss der Proxy in der Konsole gesetzt werden:
